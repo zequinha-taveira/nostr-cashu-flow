@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { WalletBalance } from './WalletBalance';
 import { FeatureStatus } from './FeatureStatus';
+import { TodoList } from './TodoList';
 import { WalletKeys } from '@/lib/crypto';
 import { getPreferences } from '@/lib/storage';
 
@@ -148,6 +149,9 @@ export const WalletDashboard: React.FC<WalletDashboardProps> = ({ wallet }) => {
           </div>
         </CardContent>
       </Card>
+
+      {/* Todo List */}
+      <TodoList />
 
       {/* Quick Stats */}
       <div className="text-center text-xs text-muted-foreground space-y-1">
