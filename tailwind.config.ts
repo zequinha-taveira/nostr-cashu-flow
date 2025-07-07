@@ -24,6 +24,12 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				bitcoin: 'hsl(var(--bitcoin-orange))',
+				lightning: 'hsl(var(--lightning-blue))',
+				ecash: 'hsl(var(--ecash-purple))',
+				nostr: 'hsl(var(--nostr-violet))',
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
